@@ -1,0 +1,9 @@
+Exercise 2: Guess the number
+
+Create a guessing game where the user has to guess a random integer chosen by the “computer”. I the user guessed it right: a suitable message follows. If the number is lower/ higher - let the user know
+
+Bonus points #1: Handle invalid guesses
+
+Bonus points #2: Create an option for the user to choose to play again
+
+Bonus points #3: Suggest more options for bonus points

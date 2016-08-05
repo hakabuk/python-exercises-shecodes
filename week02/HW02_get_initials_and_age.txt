@@ -1,0 +1,10 @@
+Exercise 1: Get initials and age
+
+Create a program that asks the user to input his first name, last name and year of birth. 
+
+The program will print out the user’s initials and age in the following format: 
+
+Michal 
+Weizman
+1982
+> Your initials are MW and your are 34 years old
