@@ -1,15 +1,12 @@
-from random import randint
+import random
 
-def game():
-    # MIN and MAX as variables allow developer to change upper and lower bound fast
-    MIN = 0
-    MAX = 10
-    compNum = randint(MIN,MAX)
-    print("The computer chose a random integer between 0 and 10".format(MIN, MAX))
+MIN = 0
+MAX = 10
 
-    # Does not deal with float numbers
-    userGuess = int(input("Take a guess: Which number did the computer choose? "))
+def randomNum():
+    return random.randrange(MIN, MAX, 1)
 
+def check_guess(userGuess, compNum):
     if (userGuess == compNum):
         print("You won! The computer chose the number {} just like you guessed!".format(userGuess))
     elif (userGuess > 10 or userGuess < 0):
@@ -18,8 +15,16 @@ def game():
         print("The number the computer chose is larger than {}. The number the computer chose is {}".format(userGuess, compNum))
     elif (userGuess > compNum):
         print("The number the computer chose is smaller than {}. The number the computer chose is {}".format(userGuess, compNum))
-    else:
-        print("The expression {} is not valid. The number the computer chose is {}".format(userGuess, compNum))
+    ## Does not deal with floats
+    # else:
+    #    print("The expression {} is not valid. The number the computer chose is {}".format(userGuess, compNum)
+
+def game():
+    compNum = randomNum()
+    print("The computer chose a random integer between {} and {}".format(MIN, MAX))
+
+    userGuess = int(input("Take a guess: Which number did the computer choose? "))
+    check_guess(userGuess, compNum)
 
 # Condition to keep playing until user types something other than "Y" or "y"
 answer = "y"

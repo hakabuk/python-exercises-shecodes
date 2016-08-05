@@ -1,0 +1,10 @@
+Exercise 1: Save an image from a URL
+
+Create a program that retrieves an image from URL and saves the image on the user’s computer
+
+In order to complete this exercise you will need to:
+1. Import and use the urllib.request module
+2. Learn about the retrieve function
+3. Generate a random number and add a “.png” extention and save it in a variable as your new image file name
+
+Bonus #1: Allow the user to enter his own image URL, if she wants to
