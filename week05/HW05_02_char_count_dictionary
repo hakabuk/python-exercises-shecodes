@@ -1,0 +1,9 @@
+Write a function that receives a string and returns a dictionary
+of each alphabetical char in that string and the number it appears in the string.
+
+Bonus #1: Ignore integers that mistakenly appear in the string
+Bonus #2: Count capital letters with lowercase letter,
+e.g. the function counts 'a' and 'A' under the same key in the dictionary
+Bonus #3: Allow the user to enter an additional string,
+and create a function that only counts the characters that appear in the user's string,
+e.g: If the user enters 'aio' - the function will only count these letters and ignore the rest

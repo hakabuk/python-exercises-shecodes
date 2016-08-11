@@ -1,0 +1,8 @@
+Write a function that receives a list of strings. The function returns the number of strings that are longer than 1 character and that their first and last character are identical.
+
+Example:
+For the following input: ['aba', 'xyz', 'aa', 'x', 'bbb’]
+The function must return: 3
+For the following input:
+['x', 'xy', 'xyx', 'xx', ‘']
+The function will return: 2

@@ -1,0 +1,5 @@
+Write a function that recieves a coded message in capital letters and a shift (ROT) of 13, and reveals the message
+
+#1 Bonus points: Return appropriate message if there is a non-alphabetical value in the user's string
+#2 Bonus points: Allow the user to input a second parameter
+that indicates the "shift" in the coded message from the original alphabet
