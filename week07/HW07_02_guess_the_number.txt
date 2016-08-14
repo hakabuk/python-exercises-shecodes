@@ -1,0 +1,4 @@
+Exercise 2: Guess the number
+
+Change your previous game function in a way that the user needs to keep guessing until his guess is right
+#1 Bonus point: Allow the user only 3 tries

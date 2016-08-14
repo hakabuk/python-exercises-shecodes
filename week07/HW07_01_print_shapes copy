@@ -1,0 +1,30 @@
+Write a function that prints the following shapes on the screen:
+
+1. Triangle:
+
+*
+**
+***
+****
+
+2. Trapezoid:
+
+****
+*****
+******
+*******
+
+3. Diamond:
+
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+
+
+#1 Bonus point: Allow the user to choose the height of the shape - measured in rows

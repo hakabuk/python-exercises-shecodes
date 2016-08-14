@@ -1,0 +1,21 @@
+Write a function that allows a user to play "Sheva Boom" against the computer
+
+1. Write the game rules
+2. Choose the first player randomaly
+3. Let the user know who was randomaly chosen to begin
+4. if the user is first:
+    a. ask user for the first number [let him know he can choose 0 or 1]
+5. if the computer is first:
+    a. choose a number to start with
+    b. let user know the first number
+6. ask user for next number/ BOOM
+    a. If the user is correct - it's the computers turn
+    b. If the user is wrong - let him know which mistake it is [he has 3]
+7. Let the computer play
+---> repeat steps 6 and 7 until 3 mistake is made
+
+
+#1 Bonus point: Add a 0.01 probability that the computer gets his answer wrong
+#2 Bonus point: Allow the user to change the rules: adding a "boom" ALSO when a number that contains 7 appears,
+e.g: 17, 27 etc
+#3 Bonus point: Add a "Trach" option: when a number is devided by 14
