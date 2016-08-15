@@ -15,7 +15,9 @@ Write a function that allows a user to play "Sheva Boom" against the computer
 ---> repeat steps 6 and 7 until 3 mistake is made
 
 
+#1 Bonus point: Add a "Trach" option: when a number is devided by 14
+
+To do:
 #1 Bonus point: Add a 0.01 probability that the computer gets his answer wrong
 #2 Bonus point: Allow the user to change the rules: adding a "boom" ALSO when a number that contains 7 appears,
 e.g: 17, 27 etc
-#3 Bonus point: Add a "Trach" option: when a number is devided by 14

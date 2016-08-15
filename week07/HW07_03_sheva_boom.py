@@ -16,7 +16,7 @@ def next_player(player):
 
 #Checks if the input is valid: Digits/ 'BOOM'
 def valid_input(guess):
-    if guess.upper() == 'BOOM':
+    if guess.upper() in ('BOOM', 'TRACH'):
         return True
     else:
         return guess.isdigit()
@@ -25,19 +25,21 @@ def valid_input(guess):
 def computer_guess(current):
     next_number = current + 1
     if (next_number % BOOM == 0):
-        print("The computer guess is 'BOOM")
+        print("The computer guessed: 'BOOM'")
     else:
-        print("The computer guess is {}".format(next_number))
+        print("The computer guessed: {}".format(next_number))
     return next_number
 
 
 def user_guess(current):
-    guess = input("Your turn. Type in the next number OR 'BOOM' ")
+    guess = input("Your turn. Type in the next number, 'BOOM' or 'TRACH' ")
     next_number = current + 1
     valid = valid_input(guess)
     if not valid:
         print ('Game over. Invalid Input')
         return False
+    elif (guess in ('TRACH', 'Trach', 'trach')) and (next_number % (2*BOOM) == 0):
+        return next_number
     elif (guess in ('BOOM', 'Boom', 'boom')) and (next_number % BOOM == 0):
         return next_number
     elif (int(guess) == next_number) and (next_number % BOOM != 0):
@@ -49,14 +51,15 @@ def user_guess(current):
 
 
 def play_game():
-    print("Sheva Boom rules: Type in the next number. If it's a multiplication of {} - type 'BOOM'".format(BOOM))
+    print("Sheva Boom rules: Type in the next number. If it's a multiplication of {} - type 'BOOM'."
+          " If it's a multiplication of {} - type 'TRACH'.".format(BOOM, BOOM*2))
     player = random_generator()
     if player == 0:
         current = random_generator()
         print("The computer was randomaly chosen to begin.\n"
               "The computer chose to begin with the number {}".format(current))
     else:
-        print("You were randomaly chosen to begin.\nYou can start the game with either 0 or 1.")
+        print("You were randomly chosen to begin.\nYou can start the game with either 0 or 1.")
         try:
             current = int(input("How would you like to start? "))
         except ValueError:
