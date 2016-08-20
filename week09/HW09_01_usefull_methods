@@ -1,0 +1,10 @@
+01: Write one line of code that creates a list that each element in it is a name of a movie and the actress who plays in it:
+    movies = ['The notebook', 'Black Swan', 'War of the worlds']
+    actress = ['Rachel McAdams', 'Natalie Portman', 'Dakota Fanning']
+
+02: Create a list of a multiplication of 100 and every number from 1 to 9 [including] if it devidable by 2
+
+03: Create a list of a multiplication of 100 and every number from 1 to 9 [including] if it devidable by 2.
+    If there is a remainder - leave the original number
+
+04: Write a code that creates a "7 Boom" list for the numbers between 1 and 99 [including]

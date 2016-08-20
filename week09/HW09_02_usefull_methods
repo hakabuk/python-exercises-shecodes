@@ -1,0 +1,12 @@
+07: Write a function in one line that receives 2 parameters and returns their sum
+
+08: Write one line of code that creates a list of tuples.
+    The first value of each tuple is the Jaul energy and the second is the energy in KKL (Joules/4184 = KKL)
+
+    joules = [5000, 8000, 10000, 6000, 12000]
+
+09: Write one line of code that creates a list of tuples of all 36 combinations from (1,1) to (6,6)
+
+10: Write a code using Lambda and Filter that returns a list that has only the language I'm learning now
+
+    languages = ["HTML", "JavaScript", "Python", "Ruby"]

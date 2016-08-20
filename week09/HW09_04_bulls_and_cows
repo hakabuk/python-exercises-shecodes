@@ -1,0 +1,18 @@
+04: Alice and Bob are playing "Bulls and cows".
+    Alice chooses a string of 5 letters. Bob needs to guess it in as few rounds as possible.
+    On each round Bob guesses a string, and receives the next details:
+    Bull: Guessed a letter in the right position
+    Cow: Guessed a letter in the wrong position
+
+    Write a function cows_and_bulls that receives the 2 strings - the real and the guess, and returns "Bull" and/or "Cow".
+    You can count the number of cows as the devision of the matching letters and the number of Bulls.
+
+    Write the game itself.
+    Write a function that creates a random string and asks the user to enter his guess.
+    The functions tells the user how many hits ans how many Bool he got.
+    If the user got the answer - He wins. Otherwise - he gets to guess again.
+
+    Add a correctness check: Since we're dealing with user input,
+    what if instead of inserting a 5 char string he inputs a longer string?
+    Or leaves it empty? Think of invalid inputs and deal with it.
+    If you caught an invalid guess - ask the user for a new guess.

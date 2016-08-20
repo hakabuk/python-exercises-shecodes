@@ -1,0 +1,18 @@
+01: You are given 2 strings: t,s.
+    Your mission is to check if one is the anagram of the other.
+    If so - return True.
+    Else: return False
+    (https://leetcode.com/problems/valid-anagram/)
+
+
+02: Write a function that receives a string that represents a roman number,
+    and returns it's numerical value. The value is guarenteed to be between 1 to 3999.
+    'I' = 1
+    'X' = 10
+    'XIII' = 13
+    'IV' = 4
+    (https://leetcode.com/problems/roman-to-integer/)
+
+03: Write a function the receives a positive number represented as a list of characters between 0 to 9,
+    and returns the value of the number bigger than 1 in a list.
+    https://leetcode.com/problems/plus-one/
