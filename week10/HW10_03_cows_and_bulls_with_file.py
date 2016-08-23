@@ -1,16 +1,14 @@
 import random
 
-#Num of letters to choose from
-MIN = 0
-MAX = 26
-#Length of string
 LENGTH = 5
 
 
-#Create a random five letter string; String
+#Find a random five letter string in file; String
 def random_str():
-    letters = 'abcdefghijklmnopqrstuvwxyz'
-    return str(''.join(letters[i] for i in random.sample(range(MIN, MAX), LENGTH)))
+    line = ''
+    while not (len(line) == LENGTH):
+        line = random.choice(open('words.txt').readlines()).rstrip()
+    return line
 
 
 #Check valid guess: Checks if the length is LENGTH and that all characters are letters; Boolean

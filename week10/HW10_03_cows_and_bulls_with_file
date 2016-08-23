@@ -1,0 +1,3 @@
+Go back to your Bulls and Cows game from week 9,
+and instead of having random strings created by the game -
+make the computer choose the random word from a file with words of different lengths.
