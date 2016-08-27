@@ -1,0 +1,9 @@
+Create a text file with 15 lines.
+Write a different word on each line and save the file.
+Create a script that reads your file and writes its content to reverse.txt.
+Reverse every word this way:
+
+god == dog
+it == ti
+
+In addition to the reversed words - append the original words to the file reversed.txt

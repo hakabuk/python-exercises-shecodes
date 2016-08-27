@@ -1,0 +1,32 @@
+The reversed words are: 
+efil
+taolf
+siht
+esora
+riomem
+raelc
+nrot
+evol
+elif
+lleh
+daor
+ecnedive
+rellirht
+edom
+oitcnuf
+The original list was: 
+life
+float
+this
+arose
+memoir
+clear
+torn
+love
+file
+hell
+road
+evidence
+thriller
+mode
+function
